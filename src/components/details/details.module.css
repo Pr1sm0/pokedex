@@ -1,5 +1,6 @@
 .root {
-  width: 40%;
+  box-sizing: border-box;
+  width: 40vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,7 +8,7 @@
   text-align: center;
   padding: 2vh 1vw;
   font-size: 4vmin;
-  height: fit-content;
+  height: 100%;
 }
 
 .avatar {
@@ -26,12 +27,15 @@
   height: 100%;
 }
 
-.table, th, td {
-  height: 0;
+.table, td {
   font-size: 2vh;
   text-align: center;
   border: 1px solid black;
   border-collapse: collapse;
+}
+
+td {
+  width: 50%;
 }
 
 .type {

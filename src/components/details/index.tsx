@@ -20,7 +20,7 @@ export default function Details({ selectedPokemon }: Props): ReactElement {
       <table className={classes.table}>
         <tbody>
           {tableConfig.map(({ key, value }) => (
-            <tr>
+            <tr key={key}>
               <td>{key}</td>
               <td>
                 {key === 'Type'
