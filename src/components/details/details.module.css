@@ -1,0 +1,39 @@
+.root {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid;
+  text-align: center;
+  padding: 2vh 1vw;
+  font-size: 4vmin;
+  height: fit-content;
+}
+
+.avatar {
+  width: 36vmin;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 3vh;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+.table {
+  width: 100%;
+  height: 100%;
+}
+
+.table, th, td {
+  height: 0;
+  font-size: 2vh;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.type {
+  padding: 0.5vh 1vw;
+}

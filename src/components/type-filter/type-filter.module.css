@@ -1,0 +1,17 @@
+.root {
+  display: flex;
+  gap: 1vw;
+  margin-bottom: 1vh;
+}
+
+.selectLabel {
+  font-size: 2vh;
+}
+
+.select {
+  font-size: 2vh;
+}
+
+.option {
+  font-size: 1rem;
+}

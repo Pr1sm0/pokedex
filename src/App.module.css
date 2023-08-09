@@ -1,0 +1,46 @@
+.root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4vh 4vw;
+  overflow: auto;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  gap: 2vw;
+}
+
+.itemsWrapper {
+  width: 56%;
+  height: 75vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2vmin;
+  overflow: auto;
+  padding: 0.5vh 0;
+}
+
+.title {
+  border: 1px solid;
+  text-align: center;
+  width: 50vw;
+  padding: 1vh 0;
+  font-size: 4vmin;
+  align-self: center;
+}
+
+.loadMoreButton {
+  width: 100%;
+  height: 6vh;
+  font-weight: bold;
+  font-size: 2vh;
+  border-radius: 8px;
+  border: none;
+  background-color: #4d90fe;
+  color: white;
+  cursor: pointer;
+}
